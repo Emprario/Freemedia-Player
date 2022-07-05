@@ -1,0 +1,31 @@
+*{
+    
+    --aquamarine: #85ffc7ff;
+    --skobeloff: #297373ff;
+    --coral: #ff8552ff;
+    --platinum: #e6e6e6ff;
+    font-family: 'Ubuntu', sans-serif;
+    margin:0px;
+    font-size:16px;
+    color:var(--platinum);
+}
+
+body{
+    margin:0px;
+    background-color: var(--skobeloff);
+}
+
+p.titre{
+    text-align: center;
+    font-size:45px;
+    padding-top: 16px;
+}
+p.newhr{
+    text-align: center;
+    font-size: 25px;
+    padding:0px;
+
+}
+p.user{
+    text-align: left;
+}
