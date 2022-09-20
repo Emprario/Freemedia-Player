@@ -2,7 +2,7 @@
     
     --aquamarine: #85ffc7ff;
     --skobeloff: #297373ff;
-    --coral: #ff8552ff;
+    --coral: #c1571c;
     --platinum: #e6e6e6ff;
     font-family: 'Ubuntu', sans-serif;
     margin:0px;
@@ -24,8 +24,50 @@ p.newhr{
     text-align: center;
     font-size: 25px;
     padding:0px;
+    margin-bottom: 30px;
 
 }
 p.user{
     text-align: left;
+}
+
+/*Main table section*/
+table.main{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+/*Def box section*/
+td.td-box{
+    width:90%
+}
+
+div.box{
+    margin-left:0%;
+    margin-right:15%;
+    background-color: var(--coral);
+}
+img.preview{
+    max-width: 12em;
+    height : auto;
+    display:inline-block;
+}
+p.film-titre{
+    text-align: center;
+    font-size:45px;
+    display:inline-block;
+}
+
+/*Div de la description*/
+td.description{
+    width:100%;
+}
+
+div.description{
+    border: solid 1px;
+    margin-left:3em
+}
+p.align{
+    display:inline-block;
 }
