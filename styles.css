@@ -6,18 +6,20 @@
     --platinum: #e6e6e6ff;
     font-family: 'Ubuntu', sans-serif;
     margin:0px;
-    font-size:16px;
+    font-size:24px;
     color:var(--platinum);
+
 }
 
 body{
     margin:0px;
-    background-color: var(--skobeloff);
+    /*background-color: var(--skobeloff);*/
+    background-image: url("https://image.tmdb.org/t/p/original/mMP5otHjSzDYSMpOdqy8bO3Avks.jpg");
 }
 
 p.titre{
     text-align: center;
-    font-size:45px;
+    font-size:65px;
     padding-top: 16px;
 }
 p.newhr{
@@ -40,18 +42,28 @@ table.main{
 
 /*Def box section*/
 td.td-box{
-    width:90%
+    width:80%;
+    padding:0%;
+    margin-left:15%;
+    margin-right:15%;
+    background-color: var(--coral);
 }
 
-div.box{
+/*div.box{
     margin-left:0%;
     margin-right:15%;
     background-color: var(--coral);
+}*/
+
+div.meta{
+    display:grid;
+    border: solid 1px;
 }
 img.preview{
     max-width: 12em;
     height : auto;
-    display:inline-block;
+    /*display:inline-block;*/
+    display:grid;
 }
 p.film-titre{
     text-align: center;
@@ -64,10 +76,10 @@ td.description{
     width:100%;
 }
 
-div.description{
+/*div.description{
     border: solid 1px;
     margin-left:3em
-}
+}*/
 p.align{
     display:inline-block;
 }
