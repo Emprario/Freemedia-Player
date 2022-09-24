@@ -83,3 +83,13 @@ td.description{
 p.align{
     display:inline-block;
 }
+
+/*SELECTION MENUE*/
+
+/*BACK FRAMES*/
+#f-1{
+    opacity: 0.33;
+    position: relative;
+    up:100px
+    z-index: 1;
+}
